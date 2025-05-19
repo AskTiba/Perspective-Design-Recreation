@@ -4,9 +4,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-   <div className="text-black bg-white">
-    <Header/>
-    <Hero/>
-   </div>
+    <div className="text-black bg-white">
+      <Header />
+    </div>
   );
 }
