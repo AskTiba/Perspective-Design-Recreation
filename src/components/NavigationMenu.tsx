@@ -94,7 +94,7 @@ export function NavigationMenuDemo() {
         <NavigationMenuItem>
           <Link href="/docs" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Templates
+              Careers
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
