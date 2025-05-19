@@ -23,10 +23,10 @@ const Hero = () => {
           Watch demo
         </Button>
       </div>
-      <div className="flex justify-between sm:px-16 text-sm mb-5">
+      <div className="flex justify-between sm:px-16 text-sm mb-5 px-6">
         <div className="flex gap-3 items-center">
           <Eagle width={24} height={24} />
-          <div className=" hidden">
+          <div className="md:flex hidden">
             <Star fill="#4f4f4f" />
             <Star fill="#4f4f4f" />
             <Star fill="#4f4f4f" />
@@ -41,7 +41,7 @@ const Hero = () => {
         </div>
         <div className="flex gap-3 items-center">
           <Eagle width={24} height={24} />
-          <div className="hidden">
+          <div className="hidden md:flex ">
             <Star fill="#4f4f4f" />
             <Star fill="#4f4f4f" />
             <Star fill="#4f4f4f" />
