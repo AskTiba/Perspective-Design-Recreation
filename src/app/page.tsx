@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <div className="text-black bg-white">
       <Header />
+      <Hero/>
     </div>
   );
 }
