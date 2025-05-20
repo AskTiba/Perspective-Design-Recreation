@@ -6,15 +6,13 @@ import Star from "./Star";
 import Eagle from "./Eagle";
 import Media from "./Media";
 
-type Props = {};
-
 const svgList = [
   { Component: Star, size: { width: 24, height: 48 } },
   { Component: Eagle, size: { width: 48, height: 48 } },
-  { Component: Media, size: { width: 48, height: 48 }}, // uses default sizing
+  { Component: Media, size: { width: 48, height: 48 } }, // uses default sizing
 ];
 
-const Businesses = (props: Props) => {
+const Businesses = () => {
   return (
     <div className="my-10">
       <h1 className="md:text-[24px] md:leading-[31px] text-[16px] mx-10 leading-[21px] text-[#141414] text-center font-semibold">

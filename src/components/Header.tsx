@@ -43,7 +43,7 @@ const Header = () => {
             <Logo />
           </div>
           <div className="hidden sm:block font-bold cursor-pointer">
-            <h1>Perspective</h1>
+            <h1 className="text-lg leading-[22px]">Perspective</h1>
           </div>
         </div>
 
