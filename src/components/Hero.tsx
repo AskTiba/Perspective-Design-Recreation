@@ -7,10 +7,10 @@ import Media from "./Media";
 const Hero = () => {
   return (
     <div className="mx-6 text-center mt-10 text-[#141414] ">
-      <p className="text-[36px] leading-[42px] font-bold">
+      <p className="text-[36px] leading-[42px] md:text-[72px] md:leading-[79px] font-bold">
         Double Your Business with Perspective Funnels™
       </p>
-      <p className="text-[16px] leading-[26px] text-[#4f4f4f] mt-5 text-center">
+      <p className="text-[16px] leading-[26px] md:text-[20px] md:leading-[32px] md:mx-24 text-[#4f4f4f] mt-5 text-center">
         Easily create mobile-first, interactive, and personalized lead gen and
         sales funnels with market-leading conversion rates in just 30 minutes.
         No design or coding skills required.
