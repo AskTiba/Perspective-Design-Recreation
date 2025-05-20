@@ -114,7 +114,7 @@ const socialLinks: SocialLinkProps[] = [
 
 const Footer = () => {
   return (
-    <main className="">
+    <main className="border-b-8 border-gradient-to-r from-blue-500 via-purple-500 to-orange-500 ">
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 place-content-around gap-6">
         {footerData.map((section, idx) => (
           <FooterSection
@@ -134,29 +134,37 @@ const Footer = () => {
           </div>
         </section>
       </div>
-      <div className="flex gap-10 justify-center my-10 px-20">
-        <Image src={GDPR} alt="Picture of the author" />
-        <Image src={climate} alt="Picture of the author" />
-        <Image src={remote} alt="Picture of the author" />
-      </div>
-      <div className="flex flex-col justify-center items-center my-20 gap-6">
-        <div className="">
-          <Select>
-            <SelectTrigger className="w-[180px]">
-              <SelectValue
-                className="text-sm text-[#333333] leading-[20px]"
-                placeholder="English"
-              />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="light">Deutsch</SelectItem>
-            </SelectContent>
-          </Select>
+      <article className="lg:flex lg:justify-between lg:items-center lg:gap-6 lg:px-10">
+        <div className="flex gap-5 justify-center lg:order-2 my-10">
+          <div className="">
+            <Image src={GDPR} width={75} alt="Picture of the author" />
+          </div>
+          <div className="">
+            <Image src={climate} width={75} alt="Picture of the author" />
+          </div>
+          <div className="">
+            <Image src={remote} width={75} alt="Picture of the author" />
+          </div>
         </div>
-        <p className="text-center text-sm text-[#333333] leading-[20px] font-bold ">
-          © Perspective Software GmbH
-        </p>
-      </div>
+        <div className="flex flex-col justify-center items-center lg:order-1 my-20 gap-6">
+          <div className="">
+            <Select>
+              <SelectTrigger className="w-[180px]">
+                <SelectValue
+                  className="text-sm text-[#333333] leading-[20px]"
+                  placeholder="English"
+                />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="light">Deutsch</SelectItem>
+              </SelectContent>
+            </Select>
+          </div>
+          <p className="text-center text-sm text-[#333333] leading-[20px] font-bold ">
+            © Perspective Software GmbH
+          </p>
+        </div>
+      </article>
     </main>
   );
 };
