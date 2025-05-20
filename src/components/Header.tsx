@@ -36,7 +36,7 @@ const Header = () => {
   return (
     <>
       {/* Main Header always visible */}
-      <header className="relative z-50 flex items-center justify-between px-5 py-3  bg-white">
+      <header className=" z-50 sticky top-0 flxed flex items-center justify-between px-5 py-3  bg-white">
         {/* Logo and Title */}
         <div className="flex items-center gap-3">
           <div className="size-8 p-1 rounded-sm bg-gradient-to-tr from-green-800 to-yellow-500 flex items-center justify-center cursor-pointer">
