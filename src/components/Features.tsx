@@ -21,8 +21,8 @@ type Props = {};
 
 const Features = (props: Props) => {
   return (
-    <main className="p-7 flex bg-gray-200/80 flex-col items-center sm:flex-row sm:mx-20 sm:justify-evenly sm:gap-20 border gap-10 mx-6 rounded-3xl">
-      <section className="p-2 w-full rounded-lg bg-primary/50 sm:order-2 sm:w-80">
+    <main className="p-7 flex bg-gray-200/80 flex-col items-center sm:flex-row sm:mx-20 sm:justify-evenly sm:gap-64  border gap-10 mx-6 rounded-3xl">
+      <section className="p-2 w-full rounded-lg bg-primary/50 sm:order-2 sm:w-96">
         <ReactPlayer
           url="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           light={

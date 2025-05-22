@@ -15,8 +15,8 @@ const Hero = () => {
         sales funnels with market-leading conversion rates in just 30 minutes.
         No design or coding skills required.
       </p>
-      <div className="sm:flex sm:justify-center md:mx-5 sm:px-40 sm:gap-4">
-        <Button variant="default" className="w-full flex-2 mt-6 py-8">
+      <div className="sm:flex sm:justify-center md:mx-5 sm:px-40 sm:gap-4 my-6">
+        <Button variant="default" className="w-full sm:w-auto flex-2 mt-6 py-8">
           <span className="md:text-[20px] md:leading-[32px]">
             Create free funnel in 30 min
           </span>

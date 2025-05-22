@@ -10,18 +10,18 @@ import Google from "./SVG_Components/Google";
 import Coke from "./SVG_Components/Coke";
 import UgandaAirlines from "./SVG_Components/UgandaAirlines";
 import Amazon from "./SVG_Components/Amazon";
-import Tesla from "./SVG_Components/Paramount";
+import Paramount from "./SVG_Components/Paramount";
+import ScalableTicker from "./ScalableTicker";
+
 const svgList = [
-
-  { Component: Microsoft, size: { width: 50 } },
-  { Component: Google, size: { width: 50 } },
-  { Component: Coke, size: { width: 50 } },
-  { Component: Fedex, size: { width: 50 } },
-  { Component: Tesla, size: { width: 50 } },
-  { Component: UgandaAirlines, size: { width: 50 } },
-  { Component: Duolingo, size: { width: 50 } },
-  { Component: Amazon, size: { width: 50 } },
-
+  { Component: Microsoft, size: { width: 200 } },
+  { Component: Google, size: { width: 200 } },
+  { Component: Coke, size: { width: 200 } },
+  { Component: Fedex, size: { width: 200 } },
+  { Component: Paramount, size: { width: 200 } },
+  { Component: UgandaAirlines, size: { width: 200 } },
+  { Component: Duolingo, size: { width: 200 } },
+  { Component: Amazon, size: { width: 200 } },
 ];
 
 const Businesses = () => {
@@ -30,8 +30,9 @@ const Businesses = () => {
       <h1 className="md:text-[24px] md:leading-[31px] text-[16px] mx-10 leading-[21px] text-[#141414] text-center font-semibold">
         Used daily by more than 6,000 small and large businesses.
       </h1>
-      <div className="mb-10 py-10 bg-transparent px-40 flex items-center">
-        <ScalableCarousel svgItems={svgList} autoplayDelay={3000} loop={true} />
+      <div className="mt-4 px-16">
+        {/* <ScalableCarousel svgItems={svgList} autoplayDelay={3000} loop={true} /> */}
+        <ScalableTicker svgItems={svgList} speed={20} />
       </div>
     </div>
   );

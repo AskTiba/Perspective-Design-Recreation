@@ -39,9 +39,9 @@ const ScalableCarousel: React.FC<ScalableCarouselProps> = ({
         {svgItems.map(({ Component, size }, index) => (
           <CarouselItem
             key={index}
-            className="pl-1 basis-1/2 md:basis-1/3 lg:basis-1/6"
+            className="pl-1 basis-1/5 md:basis-1/3 sm:basis-1/6"
           >
-            <div className="p-5 flex justify-center items-center h-20 ">
+            <div className="flex h-24 border rounded-md ">
               <Component
                 {...size}
                 role="img"
