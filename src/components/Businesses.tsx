@@ -11,16 +11,16 @@ import Coke from "./SVG_Components/Coke";
 import UgandaAirlines from "./SVG_Components/UgandaAirlines";
 import Amazon from "./SVG_Components/Amazon";
 import Tesla from "./SVG_Components/Paramount";
-
 const svgList = [
-  { Component: Microsoft, size: { width: 200 } },
-  { Component: Google, size: { width: 200 } },
-  { Component: Coke, size: { width: 200 } },
-  { Component: Fedex, size: { width: 200 } },
-  { Component: Tesla, size: { width: 200 } },
-  { Component: UgandaAirlines, size: { width: 200 } },
-  { Component: Duolingo, size: { width: 200 } },
-  { Component: Amazon, size: { width: 200 } },
+
+  { Component: Microsoft, size: { width: 50 } },
+  { Component: Google, size: { width: 50 } },
+  { Component: Coke, size: { width: 50 } },
+  { Component: Fedex, size: { width: 50 } },
+  { Component: Tesla, size: { width: 50 } },
+  { Component: UgandaAirlines, size: { width: 50 } },
+  { Component: Duolingo, size: { width: 50 } },
+  { Component: Amazon, size: { width: 50 } },
 
 ];
 
