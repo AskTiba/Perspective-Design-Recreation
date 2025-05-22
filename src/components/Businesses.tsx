@@ -2,14 +2,26 @@
 
 import React from "react";
 import ScalableCarousel from "./ScalableCarousel";
-import Star from "./Star";
-import Eagle from "./Eagle";
-import Media from "./Media";
+
+import Fedex from "./SVG_Components/Fedex";
+import Duolingo from "./SVG_Components/Duolingo";
+import Microsoft from "./SVG_Components/Microsoft";
+import Google from "./SVG_Components/Google";
+import Coke from "./SVG_Components/Coke";
+import UgandaAirlines from "./SVG_Components/UgandaAirlines";
+import Amazon from "./SVG_Components/Amazon";
+import Tesla from "./SVG_Components/Paramount";
 
 const svgList = [
-  { Component: Star, size: { width: 24, height: 48 } },
-  { Component: Eagle, size: { width: 48, height: 48 } },
-  { Component: Media, size: { width: 48, height: 48 } }, // uses default sizing
+  { Component: Microsoft, size: { width: 200 } },
+  { Component: Google, size: { width: 200 } },
+  { Component: Coke, size: { width: 200 } },
+  { Component: Fedex, size: { width: 200 } },
+  { Component: Tesla, size: { width: 200 } },
+  { Component: UgandaAirlines, size: { width: 200 } },
+  { Component: Duolingo, size: { width: 200 } },
+  { Component: Amazon, size: { width: 200 } },
+
 ];
 
 const Businesses = () => {
@@ -18,7 +30,7 @@ const Businesses = () => {
       <h1 className="md:text-[24px] md:leading-[31px] text-[16px] mx-10 leading-[21px] text-[#141414] text-center font-semibold">
         Used daily by more than 6,000 small and large businesses.
       </h1>
-      <div className="my-6 border flex items-center">
+      <div className="mb-10 py-10 bg-transparent px-40 flex items-center">
         <ScalableCarousel svgItems={svgList} autoplayDelay={3000} loop={true} />
       </div>
     </div>
